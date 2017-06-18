@@ -1,6 +1,6 @@
 By clicking the serial monitor you will see the values. Once you move the JoyStick the values will change.
 
-// Arduino pin numbers
+`// Arduino pin numbers
 const int SW_pin = 2; // digital pin connected to switch output
 const int X_pin = 0; // analog pin connected to X output
 const int Y_pin = 1; // analog pin connected to Y output
@@ -22,4 +22,4 @@ void loop() {
   Serial.println(analogRead(Y_pin));
   Serial.print("\n\n");
   delay(500);
-}
+}`
